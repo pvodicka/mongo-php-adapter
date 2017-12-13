@@ -1,5 +1,5 @@
 {
-    "name": "alcaeus/mongo-php-adapter",
+    "name": "pvodicka/mongo-php-adapter",
     "type": "library",
     "description": "Adapter to provide ext-mongo interface on top of mongo-php-libary",
     "keywords": ["mongodb", "database"],
@@ -12,7 +12,7 @@
         "php": "^5.6 || ^7.0",
         "ext-hash": "*",
         "ext-mongodb": "^1.2.0",
-        "mongodb/mongodb": "^1.0.1"
+        "pvodicka/mongo-php-library": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7 || ^6.0"
