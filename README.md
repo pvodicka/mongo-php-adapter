@@ -1,3 +1,6 @@
+Modified to use my mongo-php-library instead of mongodb original.
+Not recomended for production enviroment!
+
 # Mongo PHP Adapter
 
 [![Build Status](https://travis-ci.org/alcaeus/mongo-php-adapter.svg?branch=master)](https://travis-ci.org/alcaeus/mongo-php-adapter)
