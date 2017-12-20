@@ -301,15 +301,15 @@ class MongoDB
      */
     public function createCollection($name, $options = [])
     {
-        try {
+        //try {
             if (isset($options['capped'])) {
                 $options['capped'] = (bool) $options['capped'];
             }
 
             $this->db->createCollection($name, $options);
-        } catch (\MongoDB\Driver\Exception\Exception $e) {
-            return false;
-        }
+        //} catch (\MongoDB\Driver\Exception\Exception $e) {
+        //    return false;
+        //}
 
         return $this->selectCollection($name);
     }
